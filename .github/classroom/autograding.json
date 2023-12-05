@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "ex1",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "python -m pytest code/test_ex1.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "ex2",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "python -m pytest code/test_ex2.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "ex3_5foldCV",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "python -m pytest code/test_ex3_5foldCV.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "ex3_LOOCV",
+      "setup": "sudo -H pip3 install pytest numpy matplotlib",
+      "run": "python -m pytest code/test_ex3_LOOCV.py",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
